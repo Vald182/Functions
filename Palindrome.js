@@ -1,5 +1,5 @@
 const isPalindrome = (str) => {
-  let nstr = String(str);
+  let nstr = String(str.toUpperCase());
   if (nstr.length < 2) {
     return true;
   }
