@@ -12,3 +12,4 @@ const isPalindrome = (str) => {
     return false;
   }
 }
+export defaul isPalindrome;
