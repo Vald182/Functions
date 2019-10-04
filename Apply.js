@@ -13,3 +13,4 @@ const apply = (num = 0, func = n => n, arg) => {
   }
 
 export default apply;
+
