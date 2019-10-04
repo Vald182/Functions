@@ -4,7 +4,7 @@ const isPalindrome = (str) => {
   let res = '';
   
   for (let i = nstr.length; i > 0; i -= 1) {
-    res = res + nstr[i];
+    res = res + nstr[i - 1];
   } 
 
   if (res === nstr) {
