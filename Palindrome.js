@@ -13,6 +13,6 @@ const isPalindrome = (str) => {
   }
 
   return false;
-}
+};
 
 export default isPalindrome;
