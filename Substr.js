@@ -26,7 +26,7 @@ const substr = (str, ind = 0, len = 0) => {
   let result = '';
 
   for (let i = nind; i < (nlen + nind); i += 1) {
-    result = result + nstr[i];
+    result += nstr[i];
   }
   return result;
 }
