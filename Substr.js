@@ -15,8 +15,8 @@ const substr = (str, ind = 0, len = 0) => {
     nlen = 1;
   }
 
-  if ((ind + len - 1) > nstr.length) {
-    nlen = nstr.length;
+  if ((ind + len) > nstr.length) {
+    nlen = nstr.length - nind;
   }
 
   if (ind < 0) {
@@ -30,6 +30,6 @@ const substr = (str, ind = 0, len = 0) => {
   }
 
   return result;
-}
+};
 
 export default substr;
